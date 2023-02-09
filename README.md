@@ -1,4 +1,4 @@
-# ETH DAPP using Reack
+# ETH DAPP using React
 Deployed on testnet 
 ## Link
 https://memeportal-starter-project.sarthaktanpure.repl.co/
