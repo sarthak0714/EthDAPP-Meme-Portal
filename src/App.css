@@ -1,0 +1,309 @@
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+  
+}
+.lnk{
+  text-align: center;
+  font-size: 18px;
+  color: ghostwhite;
+  margin-top: 16px;
+ margin-bottom:20px;
+  display: flex;
+  justify-content: center;
+  position:relative;
+  
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  top:20%;
+  text-align: center;
+  font-size: 54px;
+  font-weight: 600;
+  color: white;
+  background-image: linear-gradient(135deg, rgba(255,0,116,1) 0%, rgba(124,36,255,1) 50%, rgba(63,251,255,1) 100%);
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; 
+
+}
+.bio2{
+  color:white;
+  background-image:radial-gradient(circle, rgba(5,144,255,1) 0%, rgba(58,208,255,1) 49%, rgba(111,250,255,1) 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; 
+}
+.bio {
+  text-align: center;
+  font-size: 18px;
+  
+  color: ghostwhite;
+  margin-top: 17px;
+ margin-bottom:17px;
+  
+/*   background: linear-gradient( 109.6deg,  rgba(247,253,166,1) 11.2%, rgba(128,255,221,1) 57.8%, rgba(255,128,249,1) 85.9% ); 
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; */
+}
+
+/* .memeButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  
+} */
+.glow-on-hover {
+  
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    font-size:17px;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+  cursor: pointer;
+  margin-top: 0px;
+  padding: 2px;
+  position: relative;
+  top: 5%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  }
+
+.glow-on-hover:before {
+    content: '';
+    background: radial-gradient(circle, rgba(255,0,116,1) 0%, rgba(124,36,255,1) 50%, rgba(63,251,255,1) 100%);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+/* HOwER BUTTON */
+
+
+.glow-on-hower {
+  
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size:17px;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+  
+  margin-top: 40px;
+  padding: 2px;
+  position: relative;
+  top: 0%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  }
+
+.glow-on-hower:before {
+    content: '';
+    background: radial-gradient(circle, rgba(255,0,116,1) 0%, rgba(124,36,255,1) 50%, rgba(63,251,255,1) 100%);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hwower:active {
+    color: #000
+}
+
+.glow-on-hower:active:after {
+    background: transparent;
+}
+
+.glow-on-hower:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hower:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+/*hhhh*/
+.somememes {
+  
+    border: none;
+    outline: none;
+    color: #fff;
+    background: black;
+  border-color:white;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+  text-align:center;
+  margin-top: 20px;
+  padding: 2px;
+  position: relative;
+  top: 5%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  }
+
+.somememes:before {
+    content: '';
+    background: radial-gradient(circle, rgba(255,0,116,1) 0%, rgba(124,36,255,1) 50%, rgba(63,251,255,1) 100%);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.somememes:active {
+    color: #000
+}
+
+.somememes:active:after {
+    background: transparent;
+}
+
+.somememes:hover:before {
+    opacity: 1;
+}
+
+.somememes:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+  border-color:white;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+.empclr{
+  color:white;
+  background-image:  linear-gradient(135deg, rgba(58,95,255,1) 0%, rgba(111,250,255,1) 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text
+}
+
+.mem{
+  font-weight:bold;
+}
+
+.hr {
+border:none;
+border-top:1px dashed white;
+color:#fff;
+background-color:#fff;
+height:1px;
+width:50%;
+}
+
+.bio3{
+  text-align: center;
+  font-weight:bold;
+  font-size: 18px;
+  
+  color: ghostwhite;
+  
+  margin-top: 50px;
+ margin-bottom:5px;
+}
